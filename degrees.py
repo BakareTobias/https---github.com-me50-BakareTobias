@@ -113,7 +113,7 @@ def shortest_path(source, target):
         node = frontier.remove()
         num_explored += 1
 
-        # If node is the target, then we have a solution
+        # If node is the target, then we have a solutionv
         if node.state == target:
             path = []
             while node.parent is not None:
